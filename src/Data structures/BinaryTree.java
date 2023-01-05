@@ -4,23 +4,7 @@ The root node of a binary tree is the topmost node and is the starting point for
 The left and right children of a node in a binary tree are smaller sub-trees. 
 */
 
-class Node {
-    // The data stored in this node
-    int data;
-    // The left child of this node
-    Node left;
-    // The right child of this node
-    Node right;
-
-    // Constructor to create a new node
-    public Node(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-}
-
-class BinaryTree {
+public class BinaryTree {
     // The root node of the binary tree
     Node root;
 
@@ -92,3 +76,18 @@ class BinaryTree {
     }
 }
 
+class Node {
+    // The data stored in this node
+    int data;
+    // The left child of this node
+    Node left;
+    // The right child of this node
+    Node right;
+
+    // Constructor to create a new node
+    public Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}

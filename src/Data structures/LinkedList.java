@@ -3,7 +3,7 @@ Each element (node) in a linked list contains a data field and a reference (link
 The last node in the list has a reference to null, indicating the end of the list. 
 */
 
-class LinkedList {
+public class LinkedList {
     // head of the list
     private Node head;
 

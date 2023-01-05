@@ -6,7 +6,7 @@ Sets are often used to test membership, to find intersections and unions of sets
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main {
+public class Sets {
     public static void main(String[] args) {
         Set<Integer> set = new HashSet<>();
 

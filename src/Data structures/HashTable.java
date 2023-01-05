@@ -4,7 +4,7 @@
 
 import java.util.Hashtable;
 
-public class Main {
+public class HashTable {
     public static void main(String[] args) {
         Hashtable<String, Integer> hashtable = new Hashtable<>();
 
