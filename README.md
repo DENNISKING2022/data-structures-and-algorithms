@@ -7,9 +7,7 @@ Understanding data structures and algorithms is important for a developer becaus
 # Git 
 To download this repository copy the command below.
 
-´´´
-git clone https://github.com/DENNISKING2022/data-structures-and-algorithms
-´´´
+
 
 # Data Structures
 [Array](src/Data-Structures/Array.java)
