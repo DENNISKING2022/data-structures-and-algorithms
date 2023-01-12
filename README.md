@@ -16,7 +16,6 @@ cd data-structures-and-algorithms
 cd src
 ```
 
-
 # Data Structures
 [Array](src/Data-Structures/Array.java)
 <li> The time complexity for the basic operations of an array data structure, such as accessing an element, inserting an element, and deleting an element, is generally constant time, O(1). This means that the time it takes to perform these operations does not depend on the size of the array.
@@ -41,6 +40,15 @@ The space complexity of a singly linked list is also O(n), where n is the number
 [Stacks](src/Data-Structures/Stacks.java)
 <li> The time complexity for the basic operations of a stack data structure, such as pushing and popping elements, is generally O(1), on average. The space complexity of a stack is also O(n), where n is the number of elements in the stack. 
 
+# Search Algorithms
+[BinarySearch](src/Search-Algorithms/BinarySearch.java)
+<li> The time complexity of a binary search algorithm is O(log n), where n is the number of elements in the array or list being searched. The space complexity is O(1), as it only requires a constant amount of memory to store variables such as the left and right pointers and the middle element.
+
+[DepthFirstSearch](src/Search-Algorithms/DepthFirstSearch.java)
+<li> When working with tree data structures, the time complexity of a depth-first search (DFS) algorithm is O(n), where n is the number of nodes in the tree. This is because, in the worst case, the algorithm visits all the nodes in the tree. 
+
+[LinearSearch](src/Search-Algorithms/LinearSearch.java)
+<li> The time complexity of a linear search algorithm, also known as sequential search, is O(n), where n is the number of elements in the array or list being searched. The space complexity of a linear search algorithm is O(1), as it only requires a constant amount of memory to store variables such as the current element being searched and the index of the desired element.
 
 # Contributions
  All contributions are welcome.
