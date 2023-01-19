@@ -50,6 +50,14 @@ The space complexity of a singly linked list is also O(n), where n is the number
 [LinearSearch](src/Search-Algorithms/LinearSearch.java)
 <li> The time complexity of a linear search algorithm, also known as sequential search, is O(n), where n is the number of elements in the array or list being searched. The space complexity of a linear search algorithm is O(1), as it only requires a constant amount of memory to store variables such as the current element being searched and the index of the desired element.
 
+# Sorting Algorithms
+[BubbleSort](src/Sorting-Algorithms/BubbleSort.java)
+<li> Bubble sort has a time complexity of O(n^2) and a space complexity of O(1), where n is the number of elements in the array being sorted. This is because, in the worst case scenario, the algorithm must compare and swap each element in the array with every other element, resulting in n-1 + (n-2) + ... + 1 = n(n-1)/2 comparisons and the same number of swaps. Since the algorithm performs this operation in-place, the space complexity is constant, O(1).
+
+[MergeSort](src/Sorting-Algorithms/MergeSort.java)
+<li> Merge sort has a time complexity of O(n log n) and a space complexity of O(n), where n is the number of elements in the array being sorted.
+The time complexity is O(n log n) because the algorithm repeatedly divides the input array into two sub-arrays, recursively sorts each sub-array, and then merges the sorted sub-arrays back together. The merge operation takes O(n) time, and it is performed log n times. Each level of the recursion takes O(n) time and there are log n levels, hence the O(n log n) time complexity. The space complexity of merge sort is O(n) because the algorithm creates a new array to hold the sorted elements while merging the two sub-arrays. Since the size of this new array is equal to the size of the input array, the space complexity is O(n).
+
 # Contributions
  All contributions are welcome.
  @DENNISKING2022 will continue to to update this repository as their knowledge in the topic continues to grow. 
